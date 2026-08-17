@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Currículum Vitae - Pedro Adrián Ayala Samaniego</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .cv {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+        }
+
+        /* ENCABEZADO */
+
+        header {
+            background-color: #1f4e79;
+            color: white;
+            padding: 35px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .foto {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+        }
+
+        header h1 {
+            font-size: 34px;
+            margin-bottom: 8px;
+        }
+
+        header h2 {
+            font-size: 20px;
+            font-weight: normal;
+            color: #dceeff;
+        }
+
+        header p {
+            margin-top: 10px;
+        }
+
+        /* CONTENIDO */
+
+        main {
+            padding: 35px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            color: #1f4e79;
+            font-size: 22px;
+            border-bottom: 2px solid #1f4e79;
+            padding-bottom: 7px;
+            margin-bottom: 15px;
+        }
+
+        /* CONTACTO */
+
+        .contacto {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .contacto a {
+            color: #1f4e79;
+            text-decoration: none;
+        }
+
+        .contacto a:hover {
+            text-decoration: underline;
+        }
+
+        /* PERFIL */
+
+        .perfil {
+            text-align: justify;
+        }
+
+        /* EDUCACIÓN */
+
+        .item {
+            margin-bottom: 20px;
+            padding-left: 15px;
+            border-left: 4px solid #1f4e79;
+        }
+
+        .item h4 {
+            font-size: 18px;
+            color: #444;
+        }
+
+        .periodo {
+            color: #1f4e79;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        /* EXPERIENCIA */
+
+        .sin-experiencia {
+            background-color: #eef5fa;
+            padding: 18px;
+            border-left: 4px solid #1f4e79;
+        }
+
+        /* HOBBIES */
+
+        .hobbies {
+            padding-left: 25px;
+        }
+
+        .hobbies li {
+            margin-bottom: 5px;
+        }
+
+        /* REFERENCIAS */
+
+        .referencia {
+            background-color: #eef5fa;
+            padding: 15px;
+            margin-bottom: 12px;
+            border-radius: 5px;
+        }
+
+        .referencia a {
+            color: #1f4e79;
+            text-decoration: none;
+        }
+
+        .referencia a:hover {
+            text-decoration: underline;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background-color: #1f4e79;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        /* RESPONSIVE */
+
+        @media (max-width: 700px) {
+
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .contacto {
+                grid-template-columns: 1fr;
+            }
+
+            main {
+                padding: 20px;
+            }
+
+            .cv {
+                width: 95%;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+<div class="cv">
+
+
+    <!-- =========================
+         ENCABEZADO
+    ========================== -->
+
+    <header>
+
+        <!-- Imagen de contacto -->
+        <img
+            class="foto"
+            src="c:\Users\SARITA\Downloads\WhatsApp Image 2026-08-16 at 19.02.01.jpeg"
+            alt="Foto de Pedro Adrián Ayala Samaniego"
+        >
+
+        <div>
+
+            <h1>
+                Pedro Adrián Ayala Samaniego
+            </h1>
+
+            <h2>
+                Estudiante de Licenciatura en Ciencias Informáticas
+            </h2>
+
+            <p>
+                Estudiante interesado en el área de informática,
+                tecnología y desarrollo de conocimientos profesionales.
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+
+        <!-- =========================
+             INFORMACIÓN DE CONTACTO
+        ========================== -->
+
+        <section>
+
+            <h3>
+                Información de contacto
+            </h3>
+
+            <div class="contacto">
+
+                <p>
+                    <strong>Teléfono:</strong>
+                    0984746903
+                </p>
+
+                <p>
+                    <strong>Email:</strong>
+
+                    <a href="mailto:ayalapedro034@gmail.com">
+                        ayalapedro034@gmail.com
+                    </a>
+
+                </p>
+
+                <p>
+                    <strong>Ubicación:</strong>
+                    Paraguay - Villarrica
+                </p>
+
+                <p>
+                    <strong>GitHub:</strong>
+
+                    <a
+                        href="https://github.com/"
+                        target="_blank"
+                    >
+                        Perfil de GitHub
+                    </a>
+
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PERFIL PERSONAL
+        ========================== -->
+
+        <section>
+
+            <h3>
+                Perfil personal
+            </h3>
+
+            <p class="perfil">
+
+                Soy estudiante de la Licenciatura en Ciencias Informáticas,
+                interesado en continuar desarrollando mis conocimientos
+                dentro del área de la tecnología y la informática.
+
+                Me considero una persona responsable, con disposición para
+                aprender y mejorar continuamente. Actualmente busco adquirir
+                conocimientos y experiencias que me permitan desarrollarme
+                profesionalmente en el área informática.
+
+            </p>
+
+        </section>
+
+
+        <!-- =========================
+             HISTORIAL ACADÉMICO
+        ========================== -->
+
+        <section>
+
+            <h3>
+                Historial académico
+            </h3>
+
+
+            <div class="item">
+
+                <h4>
+                    Facultad Politécnica - Universidad Nacional de Asunción (FPUNA)
+                </h4>
+
+                <p class="periodo">
+                    Actualmente
+                </p>
+
+                <p>
+                    <strong>Grado académico:</strong>
+                    Licenciatura en Ciencias Informáticas
+                </p>
+
+                <p>
+                    Carrera actualmente en curso.
+                </p>
+
+            </div>
+
+
+        </section>
+
+
+        <!-- =========================
+             EXPERIENCIA LABORAL
+        ========================== -->
+
+        <section>
+
+            <h3>
+                Experiencia laboral
+            </h3>
+
+            <div class="sin-experiencia">
+
+                <p>
+                    Actualmente no cuento con experiencia laboral formal
+                    relacionada con el área profesional, ya que todavía no
+                    he tenido la oportunidad de desempeñarme laboralmente
+                    en el área de informática.
+                </p>
+
+                <p>
+                    Me encuentro interesado en adquirir mi primera experiencia
+                    profesional y aplicar los conocimientos obtenidos durante
+                    mi formación académica.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             HOBBIES
+        ========================== -->
+
+        <section>
+
+            <h3>
+                Hobbies y pasatiempos
+            </h3>
+
+            <ul class="hobbies">
+
+                <li>
+                    Leer libros de vez en cuando.
+                </li>
+
+                <li>
+                    Jugar videojuegos.
+                </li>
+
+                <li>
+                    Explorar temas relacionados con la tecnología.
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- =========================
+             REFERENCIAS Y TRABAJOS
+        ========================== -->
+
+        <section>
+
+            <h3>
+                Referencias y trabajos realizados
+            </h3>
+
+
+            <div class="referencia">
+
+                <p>
+                    <strong>
+                        Trabajos académicos
+                    </strong>
+                </p>
+
+                <p>
+                    Actualmente me encuentro desarrollando diferentes
+                    trabajos y proyectos académicos relacionados con la
+                    informática como parte de mi formación universitaria.
+                </p>
+
+            </div>
+
+
+            <div class="referencia">
+
+                <p>
+                    <strong>
+                        Perfil de GitHub
+                    </strong>
+                </p>
+
+                <p>
+                    Espacio destinado a publicar proyectos y trabajos
+                    realizados durante mi formación académica.
+                </p>
+
+                <a
+                    href="https://github.com/"
+                    target="_blank"
+                >
+                    Visitar perfil de GitHub
+                </a>
+
+            </div>
+
+
+            <div class="referencia">
+
+                <p>
+                    <strong>
+                        Referencias personales
+                    </strong>
+                </p>
+
+                <p>
+                    Disponibles a solicitud.
+                </p>
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =========================
+         PIE DE PÁGINA
+    ========================== -->
+
+    <footer>
+
+        <p>
+            © 2026 Pedro Adrián Ayala Samaniego
+        </p>
+
+    </footer>
+
+
+</div>
+
+</body>
+
+</html>
+```
